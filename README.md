@@ -5,4 +5,4 @@ run
 ```
 make install
 ```
-to install the iPhone extension on a jailbroken iPhone
+to install the iPhone extension(in the package folder） on a jailbroken iPhone
