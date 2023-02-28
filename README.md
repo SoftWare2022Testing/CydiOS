@@ -36,8 +36,8 @@ After that, use ``scp ipAddressofYouriPhone@location_of_the_binary ./`` to trans
 
 Then, run the following commands in a termnial window and you can get the analysis result:
 ```
-cd static
-./ 
+cd static analysis
+./cydios_simulate -m scan -i objc-msg-xref -f location_or_the_test_app_binary -d 'antiWrapper=1'
 ```
 
 
