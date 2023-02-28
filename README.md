@@ -34,7 +34,7 @@ The static analysis moudle can be found at the  **static** folder.
 To run it, you need use CrackerXI+ or other tools to decrypt the IPA and then exetract the executable file (i.e., app binary).
 After that, use ``scp ipAddressofYouriPhone@location_of_the_binary ./`` to transfer the executable file to your PC.
 
-Then, run the following commands in a termnial window and you can get the analysis result:
+Then, run the following commands in a termnial window and you can see the analysis result:
 ```
 cd static analysis
 ./cydios_simulate -m scan -i objc-msg-xref -f location_or_the_test_app_binary -d 'antiWrapper=1'
@@ -45,3 +45,6 @@ cd static analysis
 The code for layout analysis (to extract view controller transitions in the layout files) can be found under the **LayoutRead** folder,
 
 just run the main.java file. 
+
+## Demo video
+A demo video can be found at 
