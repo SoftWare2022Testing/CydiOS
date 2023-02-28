@@ -27,3 +27,8 @@ note that
 once the iPhone extension is installed, you can found it at the cydia, and then you can open the target app for UI testing
 ![example](./cydia1.jpeg)
 
+
+## Static analysis
+
+## layout analysis
+the code for layout analysis (to extract view controller transitions in the layout files) can be found under the 
