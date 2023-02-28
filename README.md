@@ -16,7 +16,7 @@ After jailbreaking, install the Cydia(an unofficial appstore for jailbroken iOS 
 4. RocketBootstap
 5. Theos Dependencies
 
-![cydia](./cydia.jpeg)
+![cydia](./cydia.jpeg=50x100)
 
 run
 ```
