@@ -32,4 +32,5 @@ once the iPhone extension is installed, you can found it at the cydia, and then 
 ## Static analysis
 
 ## layout analysis
-the code for layout analysis (to extract view controller transitions in the layout files) can be found under the 
+the code for layout analysis (to extract view controller transitions in the layout files) can be found under the **LayoutRead** folder
+run the main.java file
