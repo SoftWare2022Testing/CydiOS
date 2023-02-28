@@ -1,0 +1,10 @@
+{
+	Filter = {
+		Bundles = (
+			"com.shuohan.test",
+			"com.mandian.mandianshenghuo",
+			"com.qiushibaike.qiushibaike",
+			"tech.caicheng.JudouRili",
+		);
+	};
+}
