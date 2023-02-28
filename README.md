@@ -1,7 +1,7 @@
 # CydiOS
 CydiOS: a model-based testing framework for iOS apps
 
-## Apps used in experiment
+## Apps used in the experiment
 
 The 50 apps used in the RQ3 can be found at **50appList.txt**
 
