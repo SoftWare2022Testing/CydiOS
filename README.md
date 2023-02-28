@@ -30,7 +30,7 @@ once the iPhone extension is installed, you can found it at the cydia, and then 
 
 
 ## Static analysis
-The static analysis moudle can be found at the  **static** folder.
+The static analysis moudle can be found at the  **static analysis** folder.
 To run it, you need use CrackerXI+ or other tools to decrypt the IPA and then exetract the executable file (i.e., app binary).
 After that, use ``scp ipAddressofYouriPhone@location_of_the_binary ./`` to transfer the executable file to your PC.
 
@@ -39,6 +39,9 @@ Then, run the following commands in a termnial window and you can see the analys
 cd static analysis
 ./cydios_simulate -m scan -i objc-msg-xref -f location_or_the_test_app_binary -d 'antiWrapper=1'
 ```
+
+we also include a python script in the  **static analysis** folder, which performs static data flow analysis on the app binary.
+You should open it with IDA_pro_64, and import it as an IDA plugin, then you can get the output.
 
 
 ## Layout analysis
