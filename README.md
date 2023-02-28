@@ -32,6 +32,7 @@ once the iPhone extension is installed, you can found it at the cydia, and then 
 ## Static analysis
 The static analysis moudle can be found at the  **static** folder.
 To run it, you need use CrackerXI+ or other tools to decrypt the IPA and then exetract the executable file (i.e., app binary).
+After that, use ``scp ipAddressofYouriPhone ./`` to transfer the executable file to your PC.
 
 
 ## Layout analysis
