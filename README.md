@@ -25,6 +25,7 @@ note that
 2. you should change the ip address of the iPhone in **Makefile**, like THEOS_DEVICE_IP = 192.168.31.174
 
 once the iPhone extension is installed, you can found it at the cydia, and then you can open the target app for UI testing
+
 ![example](./cydia1.jpeg)
 
 
