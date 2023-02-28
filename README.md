@@ -47,4 +47,4 @@ The code for layout analysis (to extract view controller transitions in the layo
 just run the main.java file. 
 
 ## Demo video
-A demo video can be found at 
+A demo video can be found at https://github.com/SoftWare2022Testing/CydiOS/blob/main/demoVideo/demo.mp4
