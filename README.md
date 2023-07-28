@@ -1,6 +1,11 @@
 # CydiOS
 CydiOS: a model-based testing framework for iOS apps
 
+## Demo video
+A demo video can be found at https://github.com/SoftWare2022Testing/CydiOS/blob/main/demoVideo/demo.mp4
+or 
+https://www.youtube.com/shorts/VeZpY92Fno4
+
 ![example](./Snip20230228_2.png)
 
 ## Apps used in the experiment
@@ -51,5 +56,4 @@ The code for layout analysis (to extract view controller transitions in the layo
 
 just run the main.java file. 
 
-## Demo video
-A demo video can be found at https://github.com/SoftWare2022Testing/CydiOS/blob/main/demoVideo/demo.mp4
+
