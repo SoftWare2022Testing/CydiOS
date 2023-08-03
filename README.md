@@ -57,8 +57,8 @@ The code for layout analysis (to extract view controller transitions in the layo
 just run the main.java file. 
 
 
-
-<span id="busuanzi_container_site_uv">Visitor<span id="busuanzi_value_site_uv"></span>人次</span>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_uv">Visitor <span id="busuanzi_value_site_uv"></span>.</span>
 
 
 
