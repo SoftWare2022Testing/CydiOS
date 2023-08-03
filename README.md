@@ -57,7 +57,8 @@ The code for layout analysis (to extract view controller transitions in the layo
 just run the main.java file. 
 
 
-[URL=https://info.flagcounter.com/f9J6][IMG]https://s01.flagcounter.com/count2/f9J6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_7/maxflags_70/viewers_0/labels_0/pageviews_0/flags_0/percent_0/[/IMG][/URL]
+ ![visitors](https://visitor-badge.glitch.me/badge?page_id=cydios.visitor-badge&left_color=green&right_color=red)
+                
 
 
 
