@@ -1,0 +1,31 @@
+digraph G {
+    fontname="Helvetica,Arial,sans-serif"
+    node [fontname="Helvetica,Arial,sans-serif"]
+    edge [fontname="Helvetica,Arial,sans-serif"]
+    layout=fdp
+    subgraph clusterA {
+    style=filled;
+    color=lightgrey;
+    node [style=filled,color=white];
+    a0 -> a1 -> a2 -> a3;
+    label = "process #1";
+    }
+
+    subgraph clusterB {
+    node [style=filled];
+    b0 -> b1 -> b2 -> b3;
+    label = "process #2";
+    color=blue
+    }
+    clusterA -> clusterB;
+    start -> clusterA;
+    start -> clusterB;
+    a1 -> b3;
+    b2 -> a3;
+    a3 -> a0;
+    clusterA -> end;
+    clusterB -> end;
+
+    start [shape=Mdiamond];
+    end [shape=Msquare];
+}

@@ -1,0 +1,123 @@
+digraph G {
+    rankdir=LR;
+    node[shape=box];
+    layout=fdp;
+    subgraph cluster0 {
+    label="sourceNibFileName:UITabBarController-Xdx-pk-EEV\nwindowType:UITabBarController\n";
+    view0_0 [label="View\nBound:[0.00,0.00,414.00,896.00]\nCenter:[207.00,448.00]\n"];
+    view0_1 [label="View\nBound:[0.00,0.00,414.00,43.00]\nCenter:[207.00,66.20]\n"];
+    view0_2 [label="View\nBound:[0.00,0.00,385.50,43.00]\nCenter:[192.75,21.70]\n"];
+    view0_3 [label="View\nBound:[0.00,0.00,414.00,43.00]\nCenter:[207.00,109.70]\n"];
+    view0_4 [label="View\nBound:[0.00,0.00,385.50,43.00]\nCenter:[192.75,21.70]\n"];
+    view0_5 [label="View\nBound:[0.00,0.00,414.00,43.00]\nCenter:[207.00,153.20]\n"];
+    view0_6 [label="View\nBound:[0.00,0.00,385.50,43.00]\nCenter:[192.75,21.70]\n"];
+    view0_7 [label="View\nBound:[-1.00,-1.00,-1.00,-1.00]\nCenter:[-1.00,-1.00]\n"];
+    view0_7 -> view0_1 [label="subView"];
+    view0_1 -> view0_2 [label="subView"];
+    view0_7 -> view0_3 [label="subView"];
+    view0_3 -> view0_4 [label="subView"];
+    view0_7 -> view0_5 [label="subView"];
+    view0_5 -> view0_6 [label="subView"];
+    view0_0 -> view0_7 [label="subView"];
+    widget0_0 [label="Widget\nUITabBarItem\ntextName:home\nimageName:homekit\nBound:[-1.00,-1.00,-1.00,-1.00] \nCenter:[-1.00,-1.00];"];
+    widget0_1 [label="Widget\ntextName:首页\nBound:[-1.00,-1.00,-1.00,-1.00] \nCenter:[-1.00,-1.00];"];
+    widget0_2 [label="Widget\nUITableViewLabel\ntextName:快速布局\nBound:[0.00,0.00,357.50,43.00] \nCenter:[198.75,21.70];"];
+    view0_2 -> widget0_2 [label="subWidget"];
+    widget0_3 [label="Widget\n_UITableViewCellSeparatorView\nBound:[0.00,0.00,406.00,1.00] \nCenter:[211.00,43.00];"];
+    view0_1 -> widget0_3 [label="subWidget"];
+    widget0_4 [label="Widget\nUITableViewLabel\ntextName:自己的喜好\nBound:[0.00,0.00,61.50,14.00] \nCenter:[50.75,22.20];"];
+    view0_4 -> widget0_4 [label="subWidget"];
+    widget0_5 [label="Widget\nUITableViewLabel\ntextName:Detail\nBound:[0.00,0.00,33.00,14.00] \nCenter:[361.00,22.20];"];
+    view0_4 -> widget0_5 [label="subWidget"];
+    widget0_6 [label="Widget\n_UITableViewCellSeparatorView\nBound:[0.00,0.00,406.00,1.00] \nCenter:[211.00,43.00];"];
+    view0_3 -> widget0_6 [label="subWidget"];
+    widget0_7 [label="Widget\nUITableViewLabel\ntextName:嵌入+ Stack\nBound:[0.00,0.00,357.50,43.00] \nCenter:[198.75,21.70];"];
+    view0_6 -> widget0_7 [label="subWidget"];
+    widget0_8 [label="Widget\n_UITableViewCellSeparatorView\nBound:[0.00,0.00,406.00,1.00] \nCenter:[211.00,43.00];"];
+    view0_5 -> widget0_8 [label="subWidget"];
+    }
+    subgraph cluster1 {
+    label="sourceNibFileName:UITabBarController-Xdx-pk-EEV\nwindowType:UITabBarController\n";
+    widget1_0 [label="Widget\nUITabBarItem\ntextName:more\nimageName:table.badge.more\nBound:[-1.00,-1.00,-1.00,-1.00] \nCenter:[-1.00,-1.00];"];
+    widget1_1 [label="Widget\ntextName:更多\nBound:[-1.00,-1.00,-1.00,-1.00] \nCenter:[-1.00,-1.00];"];
+    widget1_2 [label="Widget\nUIView\nBound:[0.00,0.00,414.00,896.00] \nCenter:[207.00,448.00];"];
+    }
+    subgraph cluster2 {
+    label="sourceNibFileName:UIViewController-J65-3Q-heV\nwindowType:UIViewController\n";
+    view2_0 [label="View\nBound:[0.00,0.00,414.00,896.00]\nCenter:[207.00,448.00]\n"];
+    view2_1 [label="View\nBound:[0.00,0.00,300.00,162.00]\nCenter:[207.00,421.00]\n"];
+    view2_0 -> view2_1 [label="subView"];
+    widget2_0 [label="Widget\nUINavigationItem\ntextName:快速布局\nBound:[-1.00,-1.00,-1.00,-1.00] \nCenter:[-1.00,-1.00];"];
+    widget2_1 [label="Widget\nUITextField\ntextName:请输入用户名\nBound:[0.00,0.00,300.00,44.00] \nCenter:[150.00,22.00];"];
+    view2_1 -> widget2_1 [label="subWidget"];
+    widget2_2 [label="Widget\nUITextField\ntextName:请输入密码\nBound:[0.00,0.00,300.00,44.00] \nCenter:[150.00,81.00];"];
+    view2_1 -> widget2_2 [label="subWidget"];
+    widget2_3 [label="Widget\nUIButton\ntextName:登陆\nBound:[0.00,0.00,300.00,44.00] \nCenter:[150.00,140.00];"];
+    view2_1 -> widget2_3 [label="subWidget"];
+    widget2_4 [label="Widget\nUIButton\ntextName:取消\nBound:[0.00,0.00,60.00,30.00] \nCenter:[364.00,35.00];"];
+    view2_0 -> widget2_4 [label="subWidget"];
+    widget2_5 [label="Widget\nUILabel\ntextName:欢迎登陆注册xx App\nBound:[0.00,0.00,271.00,36.00] \nCenter:[207.00,172.00];"];
+    view2_0 -> widget2_5 [label="subWidget"];
+    }
+    subgraph cluster3 {
+    label="sourceNibFileName:UITableViewController-cxC-E3-X6v\nwindowType:UITableViewController\n";
+    view3_0 [label="View\nBound:[0.00,0.00,414.00,896.00]\nCenter:[207.00,448.00]\n"];
+    }
+    subgraph cluster4 {
+    label="sourceNibFileName:UIViewController-dW7-H7-nwm\nwindowType:UIViewController\n";
+    view4_0 [label="View\nBound:[0.00,0.00,414.00,896.00]\nCenter:[207.00,448.00]\n"];
+    view4_1 [label="View\nBound:[0.00,0.00,414.00,30.00]\nCenter:[207.00,365.00]\n"];
+    view4_2 [label="View\nBound:[0.00,0.00,384.00,350.00]\nCenter:[192.00,175.00]\n"];
+    view4_3 [label="View\nBound:[0.00,0.00,344.00,43.00]\nCenter:[192.00,71.20]\n"];
+    view4_4 [label="View\nBound:[0.00,0.00,344.00,43.00]\nCenter:[172.00,21.70]\n"];
+    view4_5 [label="View\nBound:[0.00,0.00,344.00,43.00]\nCenter:[192.00,114.70]\n"];
+    view4_6 [label="View\nBound:[0.00,0.00,344.00,43.00]\nCenter:[172.00,21.70]\n"];
+    view4_7 [label="View\nBound:[0.00,0.00,344.00,43.00]\nCenter:[192.00,158.20]\n"];
+    view4_8 [label="View\nBound:[0.00,0.00,344.00,43.00]\nCenter:[172.00,21.70]\n"];
+    view4_9 [label="View\nBound:[-1.00,-1.00,-1.00,-1.00]\nCenter:[-1.00,-1.00]\n"];
+    view4_10 [label="View\nBound:[0.00,0.00,344.00,43.00]\nCenter:[192.00,251.70]\n"];
+    view4_11 [label="View\nBound:[0.00,0.00,344.00,43.00]\nCenter:[172.00,21.70]\n"];
+    view4_12 [label="View\nBound:[-1.00,-1.00,-1.00,-1.00]\nCenter:[-1.00,-1.00]\n"];
+    view4_0 -> view4_1 [label="subView"];
+    view4_9 -> view4_3 [label="subView"];
+    view4_3 -> view4_4 [label="subView"];
+    view4_9 -> view4_5 [label="subView"];
+    view4_5 -> view4_6 [label="subView"];
+    view4_9 -> view4_7 [label="subView"];
+    view4_7 -> view4_8 [label="subView"];
+    view4_2 -> view4_9 [label="subView"];
+    view4_12 -> view4_10 [label="subView"];
+    view4_10 -> view4_11 [label="subView"];
+    view4_2 -> view4_12 [label="subView"];
+    widget4_0 [label="Widget\nUINavigationItem\ntextName:嵌入+Stack\nBound:[-1.00,-1.00,-1.00,-1.00] \nCenter:[-1.00,-1.00];"];
+    widget4_1 [label="Widget\nUIView\nBound:[0.00,0.00,384.00,350.00] \nCenter:[207.00,175.00];"];
+    view4_0 -> widget4_1 [label="subWidget"];
+    widget4_2 [label="Widget\nUIButton\ntextName:点击隐藏\nBound:[0.00,0.00,62.00,30.00] \nCenter:[31.00,15.00];"];
+    view4_1 -> widget4_2 [label="subWidget"];
+    widget4_3 [label="Widget\nUIButton\ntextName:点击显示\nBound:[0.00,0.00,62.00,30.00] \nCenter:[207.00,15.00];"];
+    view4_1 -> widget4_3 [label="subWidget"];
+    widget4_4 [label="Widget\nUIButton\ntextName:点击竖排\nBound:[0.00,0.00,62.00,30.00] \nCenter:[383.00,15.00];"];
+    view4_1 -> widget4_4 [label="subWidget"];
+    widget4_5 [label="Widget\nUITableViewLabel\ntextName:静态cell\nBound:[0.00,0.00,304.00,43.00] \nCenter:[172.00,21.70];"];
+    view4_4 -> widget4_5 [label="subWidget"];
+    widget4_6 [label="Widget\n_UITableViewCellSeparatorView\nBound:[0.00,0.00,336.00,1.00] \nCenter:[176.00,43.00];"];
+    view4_3 -> widget4_6 [label="subWidget"];
+    widget4_7 [label="Widget\nUITableViewLabel\ntextName:静态cell\nBound:[0.00,0.00,304.00,43.00] \nCenter:[172.00,21.70];"];
+    view4_6 -> widget4_7 [label="subWidget"];
+    widget4_8 [label="Widget\n_UITableViewCellSeparatorView\nBound:[0.00,0.00,336.00,1.00] \nCenter:[176.00,43.00];"];
+    view4_5 -> widget4_8 [label="subWidget"];
+    widget4_9 [label="Widget\nUITableViewLabel\ntextName:静态cell\nBound:[0.00,0.00,304.00,43.00] \nCenter:[172.00,21.70];"];
+    view4_8 -> widget4_9 [label="subWidget"];
+    widget4_10 [label="Widget\n_UITableViewCellSeparatorView\nBound:[0.00,0.00,336.00,1.00] \nCenter:[176.00,43.00];"];
+    view4_7 -> widget4_10 [label="subWidget"];
+    widget4_11 [label="Widget\nUITableViewLabel\ntextName:动态cell\nBound:[0.00,0.00,304.00,43.00] \nCenter:[172.00,21.70];"];
+    view4_11 -> widget4_11 [label="subWidget"];
+    widget4_12 [label="Widget\n_UITableViewCellSeparatorView\nBound:[0.00,0.00,336.00,1.00] \nCenter:[176.00,43.00];"];
+    view4_10 -> widget4_12 [label="subWidget"];
+    }
+    cluster0 -> cluster1 [label="type:show\n"];
+    cluster1 -> cluster0 [label="type:show\n"];
+    cluster0 -> cluster2 [label="type:show\nUIActionNameshowDetailViewController:sender:\n"];
+    cluster0 -> cluster3 [label="type:show\nUIActionNameshowDetailViewController:sender:\n"];
+    cluster0 -> cluster4 [label="type:show\nUIActionNameshowViewController:sender:\n"];
+}
